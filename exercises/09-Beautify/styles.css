@@ -1,13 +1,24 @@
-#div1 {
+#wrap {
+	display: flex;
+	justify-content: center;
+}
+#izq1 {
 	background-color: red;
 	width: 150px;
-	float: left;
 	height: 100px;
 	padding: 100px;
 	text-align: center;
 	border-radius: 50px;
 }
-#div2 {
+#izq2 {
+	background-color: blue;
+	width: 150px;
+	height: 100px;
+	padding: 100px;
+	text-align: center;
+	border-radius: 50px;
+}
+#der1 {
 	background-color: blue;
 	height: 100px;
 	width: 150px;
@@ -17,8 +28,28 @@
 	overflow: hidden;
 	border-radius: 25px;
 }
-#div3 {
+#der2 {
 	background-color: yellow;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
+#der3 {
+	background-color: red;
+	height: 100px;
+	width: 150px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 25px;
+}
+#der4 {
+	background-color: black;
 	height: 100px;
 	width: 150px;
 	padding: 25px;
